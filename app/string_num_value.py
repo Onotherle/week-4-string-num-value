@@ -35,9 +35,6 @@ class StringNumValue:
         """
         total_value = 0
 
-        # if len(self.s) == 0:
-        #     return total_value
-        # else:
         for char in self.s:
             if char.isalpha():
                 total_value += ord(char.lower()) - 96
